@@ -18,7 +18,7 @@ jobs:
     with:
       extension_name: azure
       duckdb_version: main
-      exclude_archs: 'wasm_mvp;wasm_eh;wasm_threads;windows_amd64_rtools'
+      exclude_archs: 'wasm_mvp;wasm_eh;wasm_threads'
 
   duckdb-stable-deploy:
     name: Deploy extension binaries
